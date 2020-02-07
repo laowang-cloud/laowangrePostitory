@@ -69,12 +69,6 @@ public class UserController {
         return user;
     }
 
-    @RequestMapping(value = "/testlogin")
-    public @ResponseBody String testlogin(String username,String password){
-        System.out.println("访问到啦");
-        return "success";
-    }
-
     /**
      * 查询所有用户(分页)
      * @return
